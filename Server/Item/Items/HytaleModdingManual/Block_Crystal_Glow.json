@@ -36,7 +36,14 @@
     },
     "BlockParticleSetId": "Stone",
     "BlockSoundSetId": "Crystal",
-    "ParticleColor": "#88ccff"
+    "ParticleColor": "#88ccff",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
   },
   "MaxStack": 64,
   "Recipe": {
