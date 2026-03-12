@@ -22,5 +22,12 @@
     "Level": 14
   },
   "BlockSoundSetId": "Crystal",
-  "ParticleColor": "#88ccff"
+  "ParticleColor": "#88ccff",
+  "Support": {
+    "Down": [
+      {
+        "FaceType": "Full"
+      }
+    ]
+  }
 }
