@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Block_Crystal_Glow.name",
+    "Description": "server.items.Block_Crystal_Glow.description"
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Quality": "Uncommon",
+  "Icon": "Icons/ItemsGenerated/Block_Crystal_Glow.png",
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "VariantRotation": "NESW",
+    "CustomModel": "Blocks/HytaleModdingManual/Crystal_Glow.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/HytaleModdingManual/Crystal_Glow.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Full",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Block_Crystal_Glow"
+      }
+    },
+    "Light": {
+      "Color": "#88ccff",
+      "Level": 14
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Crystal",
+    "ParticleColor": "#88ccff"
+  },
+  "MaxStack": 64,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Crystal",
+        "Quantity": 4
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Block_Crystal_Glow",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Craftingbench",
+        "Categories": [
+          "Blocks"
+        ]
+      }
+    ],
+    "TimeSeconds": 3
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

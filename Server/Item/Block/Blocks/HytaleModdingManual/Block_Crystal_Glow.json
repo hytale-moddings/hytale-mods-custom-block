@@ -1,0 +1,26 @@
+{
+  "Material": "Solid",
+  "DrawType": "Model",
+  "Opacity": "Transparent",
+  "VariantRotation": "NESW",
+  "CustomModel": "Blocks/HytaleModdingManual/Crystal_Glow.blockymodel",
+  "CustomModelTexture": [
+    {
+      "Texture": "BlockTextures/HytaleModdingManual/Crystal_Glow.png",
+      "Weight": 1
+    }
+  ],
+  "HitboxType": "Full",
+  "Gathering": {
+    "Breaking": {
+      "GatherType": "Rocks",
+      "ItemId": "Block_Crystal_Glow"
+    }
+  },
+  "Light": {
+    "Color": "#88ccff",
+    "Level": 14
+  },
+  "BlockSoundSetId": "Crystal",
+  "ParticleColor": "#88ccff"
+}
