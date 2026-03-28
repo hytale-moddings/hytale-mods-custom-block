@@ -14,7 +14,7 @@
   "Gathering": {
     "Breaking": {
       "GatherType": "Rocks",
-      "ItemId": "Block_Crystal_Glow"
+      "ItemId": "Ore_Crystal_Glow"
     }
   },
   "Light": {
